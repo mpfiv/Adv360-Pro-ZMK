@@ -41,7 +41,7 @@
             bindings = <
    &kp ESC   &kp N1    &kp N2       &kp N3         &kp N4  &kp N5                   &kp MINUS                                                                                  &kp PLUS  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0      &kp TILDE
    &kp TAB    &kp Q     &kp W        &kp E          &kp R   &kp T            &kp LEFT_BRACKET                                                                         &kp RIGHT_BRACKET   &kp Y     &kp U      &kp I    &kp O      &kp P  &kp BACKSPACE
- &kp LCTRL    &kp A     &kp S        &kp D          &kp F   &kp G               &kp BACKSLASH      &kp LCTRL          &none   &none   &none        &tog 1  &kp RCTRL   &kp SINGLE_QUOTE   &kp H     &kp J      &kp K    &kp L   &kp SEMI      &kp ENTER
+ &kp LCTRL    &kp A     &kp S        &kp D          &kp F   &kp G               &kp BACKSLASH      &kp LCTRL          &none   &none   &none         &to 1  &kp RCTRL   &kp SINGLE_QUOTE   &kp H     &kp J      &kp K    &kp L   &kp SEMI      &kp ENTER
  &kp LSHFT    &kp Z     &kp X        &kp C          &kp V   &kp B                       &none          &none          &mo 2   &none   &none         &mo 2      &none              &none   &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH      &kp RSHFT
      &mo 3  &kp END  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN                           &kp SPACE  &kp BACKSPACE  &kp LEFT_META                  &kp LEFT_ALT  &kp ENTER          &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT          &mo 3
             >;
@@ -51,7 +51,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &kp KP_DIVIDE  &kp KP_N7  &kp KP_N8   &kp KP_N9        &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp KP_EQUAL  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans   &none   &none  &tog 0  &trans  &trans     &kp KP_MINUS  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_ENTER  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans   &none   &none   &to 0  &trans  &trans     &kp KP_MINUS  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_ENTER  &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none      &kp KP_PLUS  &kp KP_N0  &kp KP_N0  &kp KP_DOT        &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans     &trans      &trans        &trans  &trans
             >;
