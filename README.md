@@ -6,6 +6,7 @@
 
 1. Fork this repo.
 2. Enable GitHub Actions on your fork.
+3. https://kinesiscorporation.github.io/Adv360-Pro-GUI/
 
 ### Build firmware
 
